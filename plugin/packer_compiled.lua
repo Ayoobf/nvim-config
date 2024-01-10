@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/af/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  fd = {
+    loaded = true,
+    path = "/home/af/.local/share/nvim/site/pack/packer/start/fd",
+    url = "https://github.com/sharkdp/fd"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/af/.local/share/nvim/site/pack/packer/start/friendly-snippets",

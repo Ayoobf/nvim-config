@@ -60,5 +60,10 @@ use({
 })
 
 use "rafamadriz/friendly-snippets"
-use 'mfussenegger/nvim-lsp-compl'
+use "mfussenegger/nvim-lsp-compl"
+use "sharkdp/fd"
+
+
+
+
 end)
