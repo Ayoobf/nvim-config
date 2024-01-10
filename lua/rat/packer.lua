@@ -62,4 +62,11 @@ use({
 use "rafamadriz/friendly-snippets"
 use 'mfussenegger/nvim-lsp-compl'
 
+use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+  require("toggleterm").setup()
+end}
+
+
+
+
 end)
