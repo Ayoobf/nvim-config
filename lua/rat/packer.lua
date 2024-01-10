@@ -61,4 +61,7 @@ use({
 
 use "rafamadriz/friendly-snippets"
 use 'mfussenegger/nvim-lsp-compl'
+
+use "folke/which-key.nvim"
+
 end)
