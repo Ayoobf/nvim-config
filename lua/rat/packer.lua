@@ -66,7 +66,19 @@ use {"akinsho/toggleterm.nvim", tag = '*', config = function()
   require("toggleterm").setup()
 end}
 
+use 'm4xshen/autoclose.nvim'
 
+use({
+  "okuuva/auto-save.nvim",
+  config = function()
+   require("auto-save").setup {
+	   enabled = true,
+	   message = function ()
+		   return ("Saved" .. vim.fn.strdtime("%H:%M:%S"))
+	   end
+   }
+  end,
+})
 
 
 end)
