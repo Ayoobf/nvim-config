@@ -1,2 +1,0 @@
-require("rat.remap")
-

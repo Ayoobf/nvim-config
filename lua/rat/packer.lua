@@ -14,6 +14,7 @@ return require('packer').startup(function(use)
 }
 
 use { "ellisonleao/gruvbox.nvim" }
+
 use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 use ('nvim-treesitter/playground')
 
@@ -80,5 +81,13 @@ use({
   end,
 })
 
+use 'lervag/vimtex'
+
+use({
+  "https://git.sr.ht/~whynothugo/lsp_lines.nvim",
+  config = function()
+    require("lsp_lines").setup()
+  end,
+})
 
 end)
