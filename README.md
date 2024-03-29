@@ -1,1 +1,1 @@
-# nvim-config
+../../.dotfiles/nvim/.config/nvim/README.md
