@@ -84,4 +84,5 @@ return require('packer').startup(function(use)
 	})
 
 	use 'lervag/vimtex'
+	use "fladson/vim-kitty"
 end)

@@ -1,3 +1,3 @@
 require("rat.remap")
-vim.wo.relativenumber = true
-print("lua inited")
+vim.o.relativenumber = true
+vim.o.number = true
